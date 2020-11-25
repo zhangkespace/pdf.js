@@ -6,13 +6,21 @@
 	<title></title>
 	<link rel="stylesheet" href="">
 </head>
+<style type="text/css" media="screen">
+button {
+	width: 200px;
+	height: 150px;
+	font-size: 40px;
+	margin: 100px;
+}	
+</style>
 <body>
-	<button class="product-term to-clause" id="noteDetail">test</button>
-	<button class="to-clause" id="clauseDetail">testxxx</button>
+	<!-- <button class="product-term to-clause" id="noteDetail">test</button> -->
+	<button class="to-clause" id="clauseDetail">点击测试</button>
 </body>
 <script type="text/javascript">
 	document.getElementById("clauseDetail").onclick = () => {
-		window.open('http://localhost:8080/web/viewer.html?file=eFapiao_20201017R5725965723_07807441.pdf', '_self');
+		window.open('./web/viewer.html?file=eFapiao_20201017R5725965723_07807441.pdf', '_self');
 	}
 </script>
 </html>
